@@ -1,0 +1,39 @@
+# ===== 构建产物 =====
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+*.obj
+*.o
+*.exe
+
+# ===== CMake 自动生成（moc）=====
+*_autogen/
+mocs_compilation.cpp
+
+# ===== Qt Creator 配置 =====
+.qtcreator/
+*.user
+*.user.*
+
+# ===== SQLite 数据库 =====
+*.db
+*.db-journal
+*.db-wal
+
+# ===== IDE / 编辑器 =====
+.vs/
+.vscode/
+.idea/
+
+# ===== Claude Code 本地配置 =====
+.claude/
+
+# ===== 其他临时文件 =====
+*.log
+*.tmp
+Thumbs.db
