@@ -37,3 +37,7 @@ mocs_compilation.cpp
 *.log
 *.tmp
 Thumbs.db
+
+# ===== 开发过程记录（本地保留，不上传仓库）=====
+PROGRESS.md
+ERROR_LOG.md
